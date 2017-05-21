@@ -1,0 +1,16 @@
+.o_main.dragover:after, .openerp_webclient_container.dragover:after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    content: attr(data-dragover-text);
+    color: #fff;
+    text-align: center;
+    border: 4px dashed;
+    padding-top: 50vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
