@@ -4,7 +4,7 @@
     'name': 'Attachment Drag & Drop',
     'description': 'Add attachments in drag and drop',
     'category': 'Generic Modules',
-    'version': '1.0.0.0',
+    'version': '1.0.0.1',
     'depends': ['web', 'document'],
 
     # templates

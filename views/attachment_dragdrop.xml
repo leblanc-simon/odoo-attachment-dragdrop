@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
-        <template id="assets_backend" name="attachment_dragdrop assets" inherit_id="web.assets_backend">
+        <template id="assets_backend_attachment_dragdrop" name="attachment_dragdrop assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
                 <link href="/attachment_dragdrop/static/src/css/attachment_dragdrop.css" rel="stylesheet" />
                 <script type="text/javascript" src="/attachment_dragdrop/static/src/js/attachment_dragdrop.js"></script>
